@@ -129,3 +129,12 @@ celerybeat-schedule
 django_project/node_modules/
 optimized.js
 tmp/
+
+# Ansible Project Dev Setup
+deployment/ansible/tmp
+!deployment/ansible/tmp/.gitkeep
+deployment/ansible/development/site.retry
+deployment/ansible/development/group_vars/all.yml
+deployment/docker-compose.override.yml
+deployment/logs
+deployment/sites-enabled
